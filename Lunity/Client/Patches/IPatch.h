@@ -11,7 +11,10 @@
 
 class IPatch
 {
+	//The main disasembler
 	static inline PLH::CapstoneDisassembler* dis = new PLH::CapstoneDisassembler(PLH::Mode::x64);
+
+	//Patch metadata
 	std::string name;
 	std::vector<SigInfo*>* signatures;
 public:
@@ -22,8 +25,11 @@ public:
 	void AddSignature(SigInfo* sigInfo);
 	//Scans all sigs in the order
 	auto ScanSigs() -> uintptr_t;
+	//The patches name
 	auto GetName() -> std::string;
+	//Returns the polyhook disassembler. You might not need this.
 	auto GetDis() -> PLH::CapstoneDisassembler&;
+	//Actually apply the hook
 	virtual auto Apply() -> bool;
 };
 
