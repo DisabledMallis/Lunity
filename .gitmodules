@@ -1,9 +1,18 @@
+[submodule "Lunity/Lib/imgui"]
+	path = Lunity/Lib/imgui
+	url = https://github.com/ocornut/imgui
 [submodule "Lunity/Lib/PolyHook_2_0"]
 	path = Lunity/Lib/PolyHook_2_0
-	url = https://github.com/stevemk14ebr/PolyHook_2_0.git
-[submodule "Lunity/Lib/cpp-httplib"]
-	path = Lunity/Lib/cpp-httplib
-	url = https://github.com/yhirose/cpp-httplib.git
+	url = https://github.com/stevemk14ebr/PolyHook_2_0
+[submodule "Lunity/Lib/minhook"]
+	path = Lunity/Lib/minhook
+	url = https://github.com/TsudaKageyu/minhook.git
 [submodule "Lunity/Lib/HTTPRequest"]
 	path = Lunity/Lib/HTTPRequest
-	url = https://github.com/elnormous/HTTPRequest.git
+	url = https://github.com/elnormous/HTTPRequest
+[submodule "Lunity/Lib/cpp-httplib"]
+	path = Lunity/Lib/cpp-httplib
+	url = https://github.com/yhirose/cpp-httplib
+[submodule "Lunity/Lib/kiero"]
+	path = Lunity/Lib/kiero
+	url = https://github.com/Rebzzel/kiero
